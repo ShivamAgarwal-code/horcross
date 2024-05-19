@@ -1,0 +1,18 @@
+import ERC6551RegistryABI from '../artifacts/contracts/ERC6551Registry.sol/ERC6551Registry.json'
+import ERC6551RegistryAddressSepolia from '../scripts/address/sepolia/ERC6551Registry.json'
+import ERC6551RegistryAddressFuji from '../scripts/address/avalanche-fuji/ERC6551Registry.json'
+import ERC6551RegistryAddressMumbai from '../scripts/address/polygon-mumbai/ERC6551Registry.json'
+import ERC6551RegistryFujiABI from '../artifacts/contracts/ERC6551RegistryFuji.sol/ERC6551RegistryFuji.json'
+import ERC6551RegistryFujiAddress from '../scripts/address/avalanche-fuji/ERC6551RegistryFuji.json'
+import ERC6551RegistryAndReadCallABI from '../artifacts/contracts/ERC6551RegistryAndReadCall.sol/ERC6551RegistryAndReadCall.json'
+import ERC6551RegistryAndReadCallAddress from '../scripts/address/goerli/ERC6551RegistryAndReadCall.json'
+import ERC6551AccountUpgradeableAddress from '../scripts/address/goerli/ERC6551AccountUpgradeable.json'
+import SimpleERC6551AccountABI from '../artifacts/contracts/examples/simple/SimpleERC6551Account.sol/SimpleERC6551Account.json'
+import SimpleERC6551AccountAddressFuji from '../scripts/address/avalanche-fuji/SimpleERC6551Account.json'
+import SimpleERC6551AccountAddressMumbai from '../scripts/address/polygon-mumbai/SimpleERC6551Account.json'
+import ReadCallABI from '../artifacts/contracts/test/ReadCall.sol/ReadCall.json'
+import ReadCallAddress from '../scripts/address/goerli/ReadCall.json'
+import MyDOODLEABI from '../artifacts/contracts/MyDOODLE.sol/MyDOODLE.json'
+import MyDOODLEAddress from '../scripts/address/goerli/MyDOODLE.json'
+
+export { ERC6551RegistryABI, ERC6551RegistryAddressSepolia, ERC6551RegistryAddressFuji, ERC6551RegistryAddressMumbai, ERC6551RegistryFujiABI, ERC6551RegistryFujiAddress, ERC6551RegistryAndReadCallABI, ERC6551RegistryAndReadCallAddress, ERC6551AccountUpgradeableAddress, SimpleERC6551AccountABI, SimpleERC6551AccountAddressFuji, SimpleERC6551AccountAddressMumbai, ReadCallABI, ReadCallAddress, MyDOODLEABI, MyDOODLEAddress }

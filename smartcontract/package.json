@@ -1,0 +1,31 @@
+{
+  "name": "horcross",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf ./artifacts ./cache ./typechain",
+    "compile": "hardhat compile",
+    "node": "hardhat node",
+    "deploy": "hardhat deploy:contract",
+    "deploy:ac": "hardhat deploy:ERC6551",
+    "verify": "hardhat verify:contract",
+    "eslint": "eslint -c .eslintrc \"./**/*.ts\"",
+    "eslint:fix": "eslint --fix \"./src/*.ts\""
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@openzeppelin/contracts": "^4.9.0",
+    "@openzeppelin/hardhat-upgrades": "^1.27.0",
+    "@routerprotocol/evm-gateway-contracts": "^1.1.13",
+    "dotenv": "^16.0.3",
+    "ericlint": "^1.1.12",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.14.0",
+    "hardhat-gas-reporter": "^1.0.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
